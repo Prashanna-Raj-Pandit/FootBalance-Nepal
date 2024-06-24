@@ -70,7 +70,7 @@ section {
 }
 
 .header {
-  padding: 2rem;
+  padding: 1rem;
   border-bottom: var(--border);
 }
 
@@ -89,6 +89,12 @@ section {
   color: var(--green);
 }
 
+.nepal{
+ height:20px;
+ font-size:15px;
+ text-align:right;
+ color: black;
+}
 .header .nav a {
   margin: 0 1rem;
   font-size: 1.7rem;
@@ -107,7 +113,7 @@ section {
 }
 
 .home {
-  background: url(../images/foot.jpg) no-repeat;
+  background: url(../images/Facebook_Banner_1200x620_plain.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -118,15 +124,15 @@ section {
 }
 
 .home .content h3 {
-  font-size: 6rem;
+  font-size: 5rem;
   text-transform: uppercase;
   color: var(--black);
 }
 
 .home .content p {
   line-height: 2;
-  font-size: 1.5rem;
-  color: var(--light-color);
+  font-size: 1.75rem;
+  color: var(--white);
   padding: 1rem 0;
 }
 
@@ -152,6 +158,20 @@ section {
   line-height: 2;
 }
 
+.marketing h3 {
+  font-size: 3rem;
+  color: var(--black);
+  margin-top: 1rem;
+
+}
+.marketing p {
+  padding: 1rem 0;
+  font-size: 1.4rem;
+  color: var(--light-color);
+  line-height: 2;
+
+}
+
 .services {
   background-color: var(--light-bg);
 }
@@ -172,7 +192,7 @@ section {
 
 .services .box-container .box img {
   margin: 1rem 0;
-  height: 4rem;
+  height: 10rem;
 }
 
 .services .box-container .box h3 {
