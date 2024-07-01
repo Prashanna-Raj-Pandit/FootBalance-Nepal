@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FootBalance Nepal</title>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <!-- bootstrap cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="static/assets/css/style.css" />
+    <link rel="icon" href="static/static/images/fb_icon.png" />
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header class="header fixed-top">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <a href="#home" class="logo">
+            <img height="40px" src="./static/images/FootB_logo.png">
+            <p class="nepal">Nepal <img style="height:25px" src="static/images/Animated-Flag-Nepal.gif"></p>
+
+          </a>
+
+          <nav class="nav">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#services">Insoles</a>
+            <a href="#reviews">reviews</a>
+            <a href="#contact">contact</a>
+          </nav>
+
+          <a href="#contact" class="link-btn">make appointment</a>
+
+          <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="container">
+        <div class="row min-vh-100 align-items-center">
+          <div class="content text-center text-md-left">
+            <h3>Personalized Foot Analysis</h3>
+            <p>
+              FootBalance Nepal is here to find the perfect fit for your insoles. We make
+              your movement personalized to perfection.
+            </p>
+            <a href="#contact" class="link-btn">Contact Us Now!</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+
+    <!-- about section starts  -->
+
+    <section class="about"  id="about">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 image">
+            <img src="static/images/custom_insole.jpg" class="w-100 mb-0 mb-md-0"  alt="" />
+          </div>
+
+          <div class="col-md-6 content">
+            <span>about us</span>
+            <h3>We Make Custom Insoles</h3>
+            <p>
+              FootBalance is a Nordic, health-driven company. We believe health and well-being begin with
+              your feet, and with our expertise and knowledge, we aim to keep you active, fit, and injury-free.
+              At FootBalance Nepal, we uniquely offer a personalized fit using advanced 3D foot scanning,
+              biomechanical analysis, and product recommendations, featuring our award-winning custom insoles.
+              Our custom insoles help to align your feet, support your arches, and balance your body. Our journey
+              into customized insoles began with significant support from FootBalance (Finland). Besides treating
+              foot problems, we also address posture-related issues and provide physiotherapy treatments.
+            </p>
+            <a href="#services" class="link-btn">Our Products</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section ends -->
+
+
+    <!--    know your foot-->
+
+
+     <section class="marketing d-flex flex-column flex-md-row">
+  <div class="p-0 m-3 d-flex flex-column col-12 col-md-8">
+    <div class="order-2 order-md-1">
+      <h3>Know your foot</h3>
+      <h4 style="color:#00ae94">Every foot is unique</h4>
+      <p>
+        No two feet – not even your own – are the same. Like a fingerprint, every foot is unique, with its own distinct shape and contour.
+        A vast majority, 75% of us, live with a foot imbalance. It affects our everyday lives by creating unnecessary pain and discomfort also
+        in other parts of our bodies and not letting us enjoy the activities and sports we love the most. Here at <strong>FootBalance Nepal</strong>, we understand this diversity
+        and provide custom insoles crafted specifically to fit your feet perfectly.
+
+      </p>
+    </div>
+    <div class="d-flex justify-content-center order-1">
+      <img class="img-fluid p-3 w-100" style="max-height: 80vh; object-fit: cover;" src="static/images/fb_images/intersport18.png" alt="Foot Image">
+    </div>
+  </div>
+  <div class="container-fluid p-0 m-3 d-flex flex-column col-12 col-md-4">
+    <div>
+      <img class="img-fluid w-100 custom-img" style="max-height: 600px; object-fit: cover;" src="static/images/fb_images/MyFootBalance_Scanner_lighter-Outdoor.png" alt="Background Image">
+    </div>
+    <div class="container-fluid p-3">
+      <h3>Introducing FIT Pro</h3>
+      <p>We are pleased to introduce FIT Pro, a custom insole designing machine, <strong style="color:#00ae94">First time in Nepal</strong> at Novel Wellness Center where different types of posture and pains are cured by physiotherapy.</p>
+    </div>
+  </div>
+</section>
+
+<!--    end know your foot-->
+
+
+<!--    anatomy of insole -->
+    <section class="anatomy"  id="anatomy">
+      <div class="container">
+        <div class="row align-items-center">
+
+
+          <div class="col-md-6 content">
+            <span>Anatomy</span>
+            <h3>Internal Structures of our Insole</h3>
+            <p>
+              🦶🏿Genuine leather
+            </p>
+            <p>
+              🦶🏿Comfortable high-quality shock absorption
+            </p>
+            <p>
+              🦶🏿Patented custom moulded Balance Plate for dynamic arch support
+            </p>
+            <p>
+             🦶🏿 High-strength bottom surface
+            </p>
+            <a href="{{url_for('insoles',insole_id=7)}}" class="link-btn">More</a>
+
+          </div>
+
+          <div class="col-md-6 image">
+            <img src="static/images/insole_anatomy/anatomy.png" class="w-100 mb-0 mb-md-0"  alt="" />
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+<!--    anatomy end -->
+
+
+    <!-- services section starts  -->
+
+    <section class="services" id="services">
+      <h1 class="heading">our Custom Insoles</h1>
+
+      <div class="box-container container">
+
+        <div class="card">
+          <img class="card-img-top" src="static/images/insoles/impact.png">
+          <h3>Impact</h3>
+          <div class="card__content">
+<!--            <p class="card__title">Impact</p>-->
+            <img class="second_img" src="static/images/insole_anatomy/impact_anatomy.png">
+
+<!--            <p class="card__description">-->
+<!--              FootBalance 100% Impact has been developed for people who participate in high-impact-->
+<!--              court sports. It is perfect for any sport that demands skilled footwork or sudden, explosive foot-->
+<!--              movements that place strain on the feet and ankles.-->
+<!--            </p>-->
+            <a href="{{url_for('insoles',insole_id=1)}}" class="link-btn">Benefits</a>
+          </div>
+        </div>
+<div class="card">
+          <img class="card-img-top" src="static/images/insoles/max.png">
+          <h3>Max Insole</h3>
+          <div class="card__content">
+            <img class="second_img" src="static/images/insole_anatomy/max_anatomy.png">
+
+<!--            <p class="card__title">Max Insole</p>-->
+<!--            <p class="card__description">-->
+<!--              Offers greater support & cushioning-->
+<!--                for high impact activities. Features a stiffer core-->
+<!--                designed to give more support for heavier individuals-->
+<!--                and those with excessive overpronation.-->
+<!--            </p>-->
+            <a href="{{url_for('insoles',insole_id=2)}}" class="link-btn">Benefits</a>
+
+          </div>
+        </div>
+
+<div class="card">
+          <img class="card-img-top" src="static/images/insoles/Medical_Black.jpeg">
+          <h3>Medical Black</h3>
+          <div class="card__content">
+            <img class="second_img" src="static/images/insole_anatomy/black_anatomy.png">
+
+<!--            <p class="card__title">Medical Black</p>-->
+<!--            <p class="card__description">-->
+<!--              Medical Black is a standard width Custom Orthotic that fits a wide range of feet. The leather-like surface material with its subtle colouring and non-slip topcoat makes it an excellent choice for both casual and sports footwear.-->
+<!--            </p>-->
+            <a href="{{url_for('insoles',insole_id=3)}}" class="link-btn">Benefits</a>
+
+          </div>
+        </div>
+<div class="card">
+          <img class="card-img-top" src="static/images/insoles/34insole.png">
+          <h3>3/4 Insoles</h3>
+          <div class="card__content">
+            <img class="second_img" src="static/images/insole_anatomy/34insole_anatomy.png">
+<!--            <p class="card__title">3/4 Insoles</p>-->
+<!--            <p class="card__description">-->
+<!--              Specifically designed for women’s narrow and low volume shoes, the 3/4 insole is an-->
+<!--extra-narrow-width insole which delivers customised comfort for tight fitting casual (& formal)-->
+<!--footwear or footwear without removable insoles.-->
+<!--            </p>-->
+                        <a href="{{url_for('insoles',insole_id=4)}}" class="link-btn">Benefits</a>
+
+          </div>
+        </div>
+<div class="card">
+          <img class="card-img-top" src="static/images/insoles/medical_green.JPE">
+          <h3>Medical Green</h3>
+          <div class="card__content">
+            <img class="second_img" src="static/images/insole_anatomy/green_anatomy.png">
+
+<!--            <p class="card__title">Medical Green</p>-->
+<!--            <p class="card__description">-->
+<!--              FootBalance Medical Green soft features a redesigned balance plate that stabilises feet and-->
+<!--MEDICAL GREEN soft-->
+<!--distributes weight more evenly to reduce the concentration of pressure, particularly on the heel. The resilient fabric top layer helps prevent friction-->
+
+<!--            </p>-->
+                       <a href="{{url_for('insoles',insole_id=5)}}" class="link-btn">Benefits</a>
+
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="static/images/insoles/kids.png">
+  <h3>Kids Insole</h3>
+          <div class="card__content">
+            <p class="card__title">Kids Insole</p>
+            <p class="card__description">
+              Medical Kids 100% Custom Orthotic is specially designed for children’s foot conditions, offering gentle light support and medium cushioning
+for the small feet.
+            </p>
+            <a href="{{url_for('insoles',insole_id=6)}}" class="link-btn">More</a>
+
+          </div>
+        </div>
+
+
+<!--        <div class="box">-->
+<!--          <img src="static/images/insoles/max.png" alt="" />-->
+<!--          <h3>Max</h3>-->
+
+<!--        </div>-->
+
+<!--        <div class="box">-->
+<!--          <img src="static/images/insoles/impact.png" alt="" />-->
+<!--          <h3>Impact</h3>-->
+<!--        </div>-->
+
+<!--        <div class="box">-->
+<!--          <img src="static/images/insoles/medical_green.JPE" alt="" />-->
+<!--          <h3>Medical Green</h3>-->
+<!--        </div>-->
+
+<!--        <div class="box">-->
+<!--          <img src="static/images/insoles/Medical_Gold.jpeg" alt="" />-->
+<!--          <h3>3/4 Insoles</h3>-->
+<!--        </div>-->
+
+<!--        <div class="box">-->
+<!--          <img src="static/images/insoles/kids.jpeg" alt="" />-->
+<!--          <h3>Kids Insoles</h3>-->
+<!--        </div>-->
+
+<!--        <div class="box">-->
+<!--          <img src="static/images/insoles/Medical_Black.jpeg" alt="" />-->
+<!--          <h3>Medical Black</h3>-->
+<!--        </div>-->
+      </div>
+    </section>
+
+    <!-- services section ends -->
+
+
+
+
+<!-- youtube video -->
+
+    <section class="youtube_video">
+      <h1 class="heading">So How do we do that?</h1>
+      <h3 style="text-align:center;color:#00ae94">Lets watch a video</h3>
+      <div class="container mt-4">
+  <div class="video-container">
+    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/YFHUTo3Zxk8?si=zwrum1O31wBMANzN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+  </div>
+    </section>
+
+
+
+    <!-- process section starts  -->
+
+<!--    <section class="process">-->
+<!--      <h1 class="heading">work process</h1>-->
+
+<!--      <div class="box-container container">-->
+<!--        <div class="box">-->
+<!--          <img src="static/images/fb_static/images/dos and donts.png" alt="" />-->
+<!--          <h3>Cosmetic Dentistry</h3>-->
+<!--          <p>-->
+<!--            Cosmetic dentistry includes teeth whitening, dental implants, dental-->
+<!--            crowns, and teeth shaping.-->
+<!--          </p>-->
+<!--        </div>-->
+
+<!--        <div class="box">-->
+<!--          <img src="static/images/process-2.png" alt="" />-->
+<!--          <h3>Pediatric Dentistry</h3>-->
+<!--          <p>-->
+<!--            Padiatric dentistry include stainless steel crowns, tooth-colored-->
+<!--            fillings, dental cleanings, and cavities.-->
+<!--          </p>-->
+<!--        </div>-->
+
+<!--        <div class="box">-->
+<!--          <img src="static/images/process-3.png" alt="" />-->
+<!--          <h3>Dental Implants</h3>-->
+<!--          <p>-->
+<!--            Dental implants are artificial tooth roots that are surgically-->
+<!--            placed into the jawbone.-->
+<!--          </p>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </section>-->
+
+    <!-- process section ends -->
+
+    <!-- reviews section starts  -->
+
+    <section class="reviews" id="reviews">
+      <h1 class="heading">Our Clients</h1>
+
+      <div class="box-container container">
+        <div class="box">
+          <img src="static/images/review_person/IMG_5322.jpg" alt="" />
+          <p>
+            I couldn’t believe that it was so afordable compared to the
+            alternatives available in the market.
+          </p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <h3>Harris raj</h3>
+          <span>Manager,Evo Store</span>
+        </div>
+
+
+
+        <div class="box">
+          <img src="static/images/review_person/IMG_5326.jpg" alt="" />
+          <p>
+            Earlier I used to hide my smile and now I can’t stop smiling.
+            Flexalign aligners changed my life &amp; smile completely.
+          </p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <h3>Ram Chandar</h3>
+          <span>Assistant Manager,TCS</span>
+        </div>
+
+        <div class="box">
+          <img src="static/images/review_person/IMG_5324.jpg" alt="" />
+          <p>
+            Great experience with DentalClinic aligners. I would recommend this
+            place for they have the best quality service
+          </p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <h3>Prashanna Raj</h3>
+          <span>CEO,IBM</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- reviews section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+      <h1 class="heading">make appointment</h1>
+      <div class="container form">
+        <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+        <!--<?php
+         if(isset($message)){
+            foreach($message as $message){
+               echo '<p class="message">'.$message.'</p>';
+            }
+         }
+      ?>-->
+        <span>Enter your name :</span>
+        <input
+          type="text"
+          name="name"
+          placeholder="Enter your name"
+          class="box"
+          required
+        />
+        <span>Enter your email :</span>
+        <input
+          type="email"
+          name="email"
+          placeholder="Enter your email"
+          class="box"
+          required
+        />
+        <span>Enter your number :</span>
+        <input
+          type="number"
+          name="number"
+          placeholder="Enter your number"
+          class="box"
+          required
+        />
+        <span>Enter appointment date :</span>
+        <input type="datetime-local" name="date" class="box" required />
+        <span>Tell us your problem</span>
+        <textarea name="discuss" id="discuss_info" class="box"> </textarea>
+        <input
+          type="submit"
+          value="make appointment"
+          name="submit"
+          class="link-btn"
+        />
+      </form>
+      </div>
+    </section>
+
+    <!-- contact section ends -->
+
+
+<!--    google maps -->
+
+    <section class="google_map">
+
+    <div class="container mt-4">
+  <div class="row">
+    <div class="col-12 col-md-4 d-flex flex-column justify-content-center">
+      <h1><strong>Step up to a <span style="color:#00ae94">healthier</span> you</strong></h1>
+      <p >Begin your journey towards better foot health by 3D scanning your feet at the Novel Wellness Center Pvt.Ltd.</p>
+      <img src="static/images/MyFB scanning.png">
+
+
+    </div>
+    <div class="col-12 col-md-8">
+      <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3534.1610363491004!2d85.31851037546534!3d27.650488976215204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb17c8bfdb6715%3A0x619066d2e1369094!2sNovel%20Wellness%20Centre%20Pvt%20Ltd(FootBalance%20Nepal)!5e0!3m2!1sen!2snp!4v1719238472317!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+    </section>
+
+<!--    google map end-->
+    <!-- footer section starts  -->
+
+    <section class="footer">
+      <div class="box-container container">
+        <div class="box">
+          <i class="fas fa-phone"></i>
+
+          <p>+9779807637578</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-map-marker-alt"></i>
+
+          <p>Khumaltar-14, Lalitpur, Nepal</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-clock"></i>
+
+          <p>10:00am to 07:00pm</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-envelope"></i>
+
+          <p>novelwellness.nepal@gmail.com</p>
+        </div>
+      </div>
+
+      <div class="SocialMediaIcons">
+									<ul class="icons">
+										<a href="https://www.facebook.com/profile.php?id=61556833412210" class="fa-brands fa-facebook"></a>
+										<a href="https://www.instagram.com/footbalance.nepal/" class="fa-brands fa-instagram"></a>
+										<a href="https://www.youtube.com/@FootBalanceNepal" class="fa-brands fa-youtube"></a>
+									</ul>
+
+      </div>
+      <div class="credit">
+        &copy;2024
+        <?php echo date('Y'); ?>
+        <span>FoootBalance Nepal</span> All Reserved Rights
+      </div>
+    </section>
+
+
+    <!-- footer section ends -->
+
+    <!-- custom js file link  -->
+    <script src="static/assets/js/script.js"></script>
+  </body>
+</html>
