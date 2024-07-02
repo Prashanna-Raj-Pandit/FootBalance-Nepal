@@ -24,7 +24,18 @@ def insoles(insole_id):
     elif insole_id == 6:
         return send_from_directory('static', path='files/FB_ProductSheet_Medical_Kids_7.pdf')
     elif insole_id == 7:
-        return send_from_directory('static',path='files/Product_Sheet_Dynamic_Profile_292.pdf')
+        return send_from_directory('static', path='files/Product_Sheet_Dynamic_Profile_292.pdf')
+
+
+@app.route('/appointment', methods=['POST'])
+def appointment_form():
+    name = request.form['name']
+    email = request.form['email']
+    phone_number = request.form['number']
+    appointment_date_n_time = request.form['date']
+    client_problem = request.form['discuss']
+    app_date, app_time = appointment_date_n_time.split('T')
+    return f"{name}, {email}, ph: {phone_number}, date={app_date},time: {app_time},messsage={client_problem}"
 
 
 if __name__ == "__main__":

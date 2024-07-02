@@ -191,6 +191,10 @@ section {
   color: var(--green);
 }
 
+.header .logo p{
+line-height:1
+}
+
 .nepal{
  height:20px;
  font-size:15px;
@@ -204,7 +208,7 @@ section {
 }
 
 .header .nav a:hover {
-  color: var(--black);
+  color:#4cdbb7;
 }
 
 #menu-btn {

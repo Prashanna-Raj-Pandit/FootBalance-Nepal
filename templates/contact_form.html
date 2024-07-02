@@ -1,0 +1,44 @@
+<section class="contact" id="contact">
+    <h1 class="heading">make appointment</h1>
+    <div class="container form">
+        <form action="{{url_for('appointment_form')}}" method="post">
+
+            <span>Enter your name :</span>
+            <input
+                    type="text"
+                    name="name"
+                    placeholder="Enter your name"
+                    class="box"
+                    required
+            />
+            <span>Enter your email :</span>
+            <input
+                    type="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    class="box"
+                    required
+            />
+            <span>Enter your number :</span>
+            <input
+                    type="number"
+                    name="number"
+                    placeholder="Enter your number"
+                    class="box"
+                    required
+                    maxlength="10"
+                    pattern="\d{10}"
+            />
+            <span>Enter appointment date :</span>
+            <input type="datetime-local" name="date" class="box" required/>
+            <span>Tell us your problem</span>
+            <textarea name="discuss" id="discuss_info" class="box"> </textarea>
+            <input
+                    type="submit"
+                    value="make appointment"
+                    name="submit"
+                    class="link-btn"
+            />
+        </form>
+    </div>
+</section>
