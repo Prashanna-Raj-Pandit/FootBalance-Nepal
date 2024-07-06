@@ -234,6 +234,7 @@ line-height:1
   color: var(--green);
 }
 
+
 .about .content h3 {
   font-size: 3rem;
   color: var(--black);
@@ -283,6 +284,10 @@ background: linear-gradient(-45deg, #00ae94 0%, #fff 100%);
   color: var(--light-color);
   line-height: 2;
 
+}
+.marketing span{
+font-size: 2rem;
+color: var(--green);
 }
 
 .services {
