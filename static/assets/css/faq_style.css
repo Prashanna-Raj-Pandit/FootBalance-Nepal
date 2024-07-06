@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6.5rem;
+}
+
+
+body{
+margin:0;
+padding:0;
+color:black;
+font-family: "Poppins", sans-serif;
+
+}
+
+h1{
+text-align: center;
+  font-size: 4rem;
+  color: var(--white);
+
+  font-weight: bolder;
+  margin-bottom: 3rem;
+}
+.image-container {
+      position: relative;
+      width: 100%;
+      height:50%;
+}
+.image-container img {
+      width: 100%;}
+
+.text-overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 2rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      text-align: center;
+      padding: 10px;
+}
+
+
+.gradient-background{
+    background: linear-gradient(300deg, #666, #00ae94, #0d131d);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    color: white;
+}
+
+@keyframes gradient-animation {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+
+}
+
+.freq_asked_q{
+background: linear-gradient(-45deg, #00ae94 0%, #fff 100%);
+min-height:100vh;
+display:flex;
+flex-direction:column;
+align-items:center;
+ }
+
+.faq_section{
+font-size:3rem;
+margin:2rem 0rem;
+}
+
+.faq{
+width:80%;
+padding-bottom:0.5rem;
+border-bottom:2px solid #fff;
+cursor:pointer;
+}
+.question{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.question h3{
+font-size:2rem; }
+
+.answer{
+
+max-height:0;
+overflow:hidden;
+transition:max-height 1.5s ease}
+
+.answer p{
+
+font-size:1.5rem;
+line-height:2rem;
+}
+
+.faq.active .answer{
+max-height:300px;
+animation:fade 1s ease-in-out;}
+
+.faq.active svg{
+transform:rotate(180degree);}
+
+svg{
+transition:transform 0.5s ease-in;}
+
+@keyframes fade{
+from{
+opacity:0;
+transform:translateY(-10);
+}
+to{
+opacity:1;
+transformY(0px);}
+}
+
+@media (max-width: 750px) {
+  html {
+    font-size: 40%;
+  }
+  }
+
+@media (max-width: 480px) {
+  html {
+    font-size: 30%;
+  }
+  }

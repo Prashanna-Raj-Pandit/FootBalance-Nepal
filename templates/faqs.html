@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>faqs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+
+    <link rel="stylesheet" href="../static/assets/css/faq_style.css">
+
+    <link rel="stylesheet" href="static/assets/css/footer.css">
+
+</head>
+<body>
+
+<section class="freq_asked_q">
+    {% include "floating_social_media_icons.html"%}
+
+    <div class="image-container">
+        <img src="static/images/fb_images/Facebook_Banner_1200x620_plain_crop.jpg" alt="">
+
+        <div class="text-overlay">
+
+            <h1>Frequently Asked Questions</h1>
+            <p >Do you have a question about custom insoles? We’re here to help you.</p>
+        </div>
+    </div>
+    {% for (key, value) in q_n_a.items(): %}
+
+    <div class="faq">
+        <div class="question">
+            <h3>{{key}}</h3>
+            <svg width="15" height="10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <path d="M201.4 137.4c12.5-12.5 32.8-12.5 45.3 0l160 160c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L224 205.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l160-160z"/>
+            </svg>
+        </div>
+        <div class="answer">
+            <p>
+                {{value}}
+            </p>
+        </div>
+    </div>
+    {% endfor %}
+
+</section>
+<section class="footer" id="footer">
+    <div class="credit">
+    &copy;2024
+    <?php echo date('Y'); ?>
+    <span>FoootBalance Nepal</span> All Reserved Rights
+</div>
+</section>
+<script src="../static/assets/js/faq.js"></script>
+</body>
+
+
+
+</html>

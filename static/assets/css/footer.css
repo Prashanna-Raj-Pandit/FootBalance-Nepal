@@ -1,0 +1,79 @@
+
+:root {
+  --green: #00ae94;
+  --black: #141414;
+  --white: #fff;
+  --light-color: #666;
+  --light-bg: #eee;
+  --border: 0.2rem solid rgba(0, 0, 0, 0.1);
+  --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  background-color: var(--light-bg);
+}
+
+.footer .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 3rem;
+}
+
+.footer .box-container .box {
+  text-align: center;
+}
+
+.footer .box-container .box i {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  line-height: 5rem;
+  font-size: 2rem;
+  background-color: var(--green);
+  color: var(--white);
+}
+
+.footer .box-container .box h3 {
+  font-size: 2rem;
+  margin: 2rem 0;
+  color: var(--black);
+}
+
+.footer .box-container .box p {
+  font-size: 1.5rem;
+  color: var(--light-color);
+  text-transform: none;
+}
+
+.footer .credit {
+
+  text-align: center;
+  border-top: var(--border);
+  padding-top: 1rem;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  color: var(--light-color);
+
+}
+
+.footer .credit span {
+  color: var(--green);
+}
+
+.SocialMediaIcons {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .SocialMediaIcons .icons a {
+      font-size: 3rem; /* Adjust the size of the icons */
+      color: #00ae94; /* Adjust the color of the icons */
+      margin: 0 10px;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .SocialMediaIcons .icons a:hover {
+      color: var(--black); /* Change color on hover */
+    }
