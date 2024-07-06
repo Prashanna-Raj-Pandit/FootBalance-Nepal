@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="static/assets/css/style.css"/>
     <link rel="stylesheet" href="static/assets/css/footer.css">
     <link rel="icon" href="static/images/fb_icon.png"/>
+    <link rel="stylesheet" href="static/assets/css/map.css">
 </head>
 <body>
 <!-- header section starts  -->
@@ -51,8 +52,8 @@
 <!-- home section ends -->
 
 <!-- about section starts  -->
-{% include "about.html"%}
 
+{% include "about.html"%}
 <!-- about section ends -->
 
 
@@ -62,12 +63,12 @@
 
 
 <!--    anatomy of insole -->
-{% include "anatomy.html" %}
+{% include "anatomy.html"%}
 <!--    anatomy end -->
 
 
 <!-- services section starts  -->
-{% include "insole_services.html"%}
+{%include "insole_services.html"%}
 <!-- services section ends -->
 
 
@@ -125,22 +126,20 @@
 <!-- process section ends -->
 
 <!-- reviews section starts  -->
-{% include "reviews.html"%}
 
+{% include "reviews.html"%}
 <!-- reviews section ends -->
 
 <!-- contact section starts  -->
 
-{% include "contact_form.html" %}
+{% include "contact_form.html"%}
 
 <!-- contact section ends -->
+{% include "googlemap.html"%}
 
-
-
-{% include "footer.html" %}
+{% include "footer.html"%}
 
 {% include "floating_social_media_icons.html"%}
-
 <!-- custom js file link  -->
 <script src="static/assets/js/script.js"></script>
 </body>

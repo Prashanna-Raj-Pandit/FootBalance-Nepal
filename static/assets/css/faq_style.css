@@ -104,6 +104,7 @@ transition:max-height 1.5s ease}
 
 font-size:1.8rem;
 line-height:2rem;
+color:#666;
 }
 
 .faq.active .answer{
