@@ -13,10 +13,10 @@ SHEETY_ENDPOINT = F"https://api.sheety.co/{SHEETY_API}/footBalanceAppointment/sh
 
 SHEETY_USERNAME=os.environ.get('SHEETY_USERNAME')
 SHEETY_PASSWORD=os.environ.get('SHEETY_PASSWORD')
-
+SHEETY_AUTHORIZATION_KEY=os.getenv('SHEETY_AUTH_KEY')
 shetty_header = {
     "Content-Type": "application/json",
-    "Authorization": "Basic Zm9vdGJhbGFuY2VuZXBhbDoyUHAoJiQja1U1MEdoSGpz",
+    "Authorization": f"Basic {SHEETY_AUTHORIZATION_KEY}",
     "username": SHEETY_USERNAME,
     "password": SHEETY_PASSWORD
 }

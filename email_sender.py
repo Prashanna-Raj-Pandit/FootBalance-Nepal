@@ -57,7 +57,7 @@ def send_appointment_email(receiver_email, name, appointment_date, appointment_t
             server.starttls()  # Secure the connection
             server.login(smtp_username, smtp_password)
             server.sendmail(sender_email, receiver_email, msg.as_string())
-            server.sendmail(sender_email, "erprp99@gmail.com",
+            server.sendmail(sender_email, "novelwellness.nepal@gmail.com",
                             msg=f"Subject:New Appoint\n\nAppointment On: {appointment_date} at {appointment_time}\n\nPatient Problem:{patient_problem}\n\nPatient Details:\nName:{name}\nPhone Number:{phone_number}\nEmail:{receiver_email}")
             # print("Email sent successfully!")
     except Exception as e:
