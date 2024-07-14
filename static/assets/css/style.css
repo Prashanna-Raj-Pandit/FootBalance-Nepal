@@ -149,8 +149,12 @@ line-height:1
   min-height: 50vh;
 }
 
+.about .content{
+margin-top:10px;
+}
 .about .content span {
   font-size: 2rem;
+
   color: var(--green);
 }
 .about .content h3 {
