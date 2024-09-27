@@ -6,7 +6,7 @@ from email.utils import formataddr
 from jinja2 import Template
 import os
 
-FOOT_BALANCE_EMAIL = "footbalance.nepal@gmail.com"
+FOOT_BALANCE_EMAIL = os.environ.get('EMAIL')
 EMAIL_PASSWORD = os.environ.get('EMAIL_PASSWORD')
 
 
