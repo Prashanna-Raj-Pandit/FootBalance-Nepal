@@ -1,6 +1,6 @@
 # Footbalance-Nepal
 
-Check this website live at https://footbalancenepal.onrender.com/#home
+Check this website live at https://footbalancenepal.onrender.com/#home and https://foot-balance-nepal.vercel.app/
 
 ## The landing page
 <img width="1428" alt="image" src="https://github.com/user-attachments/assets/6bb8f138-b132-4846-a3ae-cc14da5c623f">
