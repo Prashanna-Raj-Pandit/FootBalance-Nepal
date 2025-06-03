@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://foot-balance-nepal.vercel.app/">
-    <img src="static/images/logo.png" alt="Logo" width="250" height="90">
+    <img src="static/images/logo.png" alt="Logo" width="300" height="100">
   </a>
 
   <h3 align="center">FootBalance Nepal</h3>
