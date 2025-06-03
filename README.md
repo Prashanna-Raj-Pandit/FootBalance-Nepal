@@ -80,12 +80,6 @@ Distributed under the Unlicense License. See `LICENSE.txt` for more information.
 
 
 
-
-
-# Footbalance-Nepal
-
-Check this website live at https://footbalancenepal.onrender.com/#home and https://footbalance-nepal.vercel.app/
-
 ## The landing page
 <img width="1428" alt="image" src="https://github.com/user-attachments/assets/6bb8f138-b132-4846-a3ae-cc14da5c623f">
 <img width="1428" alt="image" src="https://github.com/user-attachments/assets/4ced0424-dd18-4174-9d73-45bde4a1075c">
